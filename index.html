@@ -272,6 +272,24 @@ button:focus-visible, input:focus-visible {
     object-fit: contain;
     border-radius: 12px;
 }
+  @media screen and (max-width: 600px) {
+    .letter-image-frame {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin: 15px auto;
+        overflow: hidden;
+    }
+
+    .secret-letter-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: none;
+        object-fit: contain;
+    }
+}
 
 .letter-bottom {
     font-size: 28px;
